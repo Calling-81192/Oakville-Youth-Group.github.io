@@ -1,0 +1,64 @@
+body {
+    background-image: url(https://cdn.discordapp.com/attachments/1151571998544232462/1163288888794697809/IMG_1390-modified.JPG?ex=653f0833&is=652c9333&hm=435ef4fabf48fdc01c744bd4baf47a5463859cc54a92564b433ef8c67f040374&);
+    background-size: cover;
+}
+.header{
+    text-align: center;
+    text-transform: uppercase;
+    padding: 32px;
+    margin-bottom: 20px;
+    color: #0a0a23;
+    border-bottom: 4px solid #b8f67a;
+}
+
+.header h1{
+    font-size: 40px;
+}
+
+.content{
+    background-color: rgba(240, 248, 255, 0.5);
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+    margin-top: 30px;
+}
+.content img{
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.content div{
+    margin-bottom: 20px;
+}
+
+
+.text{
+    font-size: 20px;
+}
+
+
+
+.bookfair{
+    display: flex;  
+    gap: 20px;
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+
+
+.pianoconcert{
+    display: flex;
+    justify-content: flex-end;  
+    gap: 20px;
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+
+.debate{
+    display: flex;
+    justify-content: flex-end;  
+    gap: 20px;
+    /* align-items: center; */
+    /* justify-content: center; */
+}
