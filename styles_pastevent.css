@@ -23,8 +23,10 @@ body {
     padding: 30px;
     margin-top: 30px;
 }
-.content img{
+img{
     object-fit: cover;
+}
+.content img{
     border-radius: 20px;
 }
 
@@ -61,4 +63,16 @@ body {
     gap: 20px;
     /* align-items: center; */
     /* justify-content: center; */
+}
+
+.return{
+    display: flex;
+    background-color: #F9a66c;
+    color: #4a6163;
+    border-radius: 12px;
+    max-width: 100px;
+    padding-left: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight:600;
 }
