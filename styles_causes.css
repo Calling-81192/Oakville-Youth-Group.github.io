@@ -1,0 +1,47 @@
+body{
+    background-color: #f9faf4;
+    margin:auto 5% auto 5%;
+}
+header{
+    color: #4a6163;
+    text-align: center;
+    font-size: 40px;
+    border-bottom:4px solid #f9a66c;
+    padding-bottom: 5px;
+    /* background-color: #4a6163; */
+    margin:20px auto 20px auto;
+}
+
+.content{
+    display: flex;
+    justify-content: space-around;
+    height: 50%;
+}
+.background{
+    margin-right: 100px;
+    max-width: 50%;
+}
+.role{
+    margin-left: 40px;
+    max-width: 50%;
+}
+
+.background{
+    background-image: url(https://cdn.discordapp.com/attachments/1125603609447501884/1179422780949794886/Untitled_design.png?ex=6579ba0f&is=6567450f&hm=88cf0b659a32ca90f8e651e8b9571fba9f5fafb7ad1da25becf446e341d757a7&);
+    background-size:100% 100%;
+}
+.discription-1{
+    background-color: rgba(240, 248, 255, 0.5);
+    padding: 10px 20px 5px 20px;
+}
+
+.role{
+    background-image: url(https://cdn.discordapp.com/attachments/1125603609447501884/1179642098631331870/DSC7911-2_1.jpg?ex=657a8651&is=65681151&hm=3cf7f5191250849918f36a8efc4ae4f451b70190c2f213d7b98b9f2ada82b9a5&);
+    background-size:100% 100%;
+ 
+}
+.discription-2{
+    background-color: rgba(240, 248, 255, 0.7);
+    padding: 10px 20px 5px 20px;
+    height: 100%;
+}
