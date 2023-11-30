@@ -1,5 +1,6 @@
+
 body{
-    background-color: white;
+    background-color: #f9faf4;
     /* font-family: 'Inter', sans-serif; */
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin: 50px auto;
@@ -34,13 +35,7 @@ a {
     text-decoration: none;
     color: #fff;
     border-radius: 20px;
-    /* background: linear-gradient(
-        to right,
-        #03a9f4,
-        #f441a5,
-        #ffeb3b,
-        #03a9f4
-    ) */
+
 }
 
 .buttons{
@@ -76,3 +71,4 @@ a {
     background-image: linear-gradient(to right, #F9A66C, #E88482, #BD7192, #856691, #505A7B,#2F4858);
     box-shadow: 0 4px 15px 0 rgba(189,113,146,  0.75);
 }
+
