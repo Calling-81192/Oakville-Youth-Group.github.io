@@ -1,6 +1,8 @@
 body {
     background-image: url(https://cdn.discordapp.com/attachments/1151571998544232462/1163288888794697809/IMG_1390-modified.JPG?ex=653f0833&is=652c9333&hm=435ef4fabf48fdc01c744bd4baf47a5463859cc54a92564b433ef8c67f040374&);
     background-size: cover;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 .header{
     text-align: center;
