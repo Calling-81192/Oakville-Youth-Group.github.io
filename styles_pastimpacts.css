@@ -1,6 +1,8 @@
 body{
     background-color: #f9faf4;
     margin:auto 5% auto 5%;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 header{
     color: #4a6163;
