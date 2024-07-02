@@ -85,3 +85,42 @@ email{
     transition: opacity 1s ease-in-out;
     opacity: 0;
 }
+.topnav{
+    width: auto;
+    overflow: hidden;
+   
+}
+.topnav img{
+    width:auto;
+    float: left;
+    height: 100px;
+    margin-right: 100px;
+    
+
+}
+
+.topnav a{
+    float: left;
+    color: #212121;
+    text-align: center;
+    padding: 30px 2vw;
+    text-decoration: none;
+    font-size: 30px;
+    cursor: pointer;
+    transition: all .4s ease-in-out;
+}
+
+.topnav a:hover {
+    background-color: #e3723e;
+    color: white;
+}
+
+.topnav a.active {
+    background-color: #cfb53b;
+    color: #212121;
+  }
+
+
+.topnav a:focus{
+    outline: none;
+}

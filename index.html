@@ -11,7 +11,7 @@
     <!-- <script src="mainpage.js"></script> -->
     <!-- below is for changing the image on our fundraising page -->
 
-
+    <!-- <script src="maincontainer1.js"></script> -->
     <script type="text/javascript">
         // var images = [
         //     'https://cdn.discordapp.com/attachments/1125603609447501884/1182183923187449957/Aiden_Chen.jpg?ex=6583c593&is=65715093&hm=6fe24bec8f2df13e6bd22620fc97b3131d73a6b67ffd7e8db0486b4a3919833f&',  // 图片1的URL
@@ -35,11 +35,11 @@
         //     setInterval(nextImage, 3000);  // 每隔3000毫秒（3秒）更换一次图片
         // }
         var images = [
-            'https://cdn.discordapp.com/attachments/1125603609447501884/1182764495907590194/Aiden_Chen.jpg?ex=6585e246&is=65736d46&hm=7d54070b1f72b8ff1fa63e026dac5a2c56ab4ade6e85ec505868bf71e39ad81a&',  // 图片1的URL
-            'https://cdn.discordapp.com/attachments/1125603609447501884/1182183923913080893/Alyssa_Jiang.jpg?ex=6583c593&is=65715093&hm=50ec227960a9c0aa68a6693804fca761fa65f33ad20cc2bc09a11e46ea972378&',  // 图片2的URL
-            'https://cdn.discordapp.com/attachments/1125603609447501884/1182183924751945758/Dang_Nguyen.png?ex=6583c593&is=65715093&hm=0d68283ba56fd1e066c9efab892fae2aff8047631abb3daca70413aeb7eaf065&',
-            'https://cdn.discordapp.com/attachments/1125603609447501884/1182183925725003866/Hussein_Elzamel.png?ex=6583c593&is=65715093&hm=b63d14902982ace6dd3f85d86d76d9eeda0cad0347bb8dcb293fa476fcd08f60&',
-            'https://cdn.discordapp.com/attachments/1125603609447501884/1182183926614212618/Juno_Jiang.PNG?ex=6583c594&is=65715094&hm=16b9dfa4e9e4fe1ae93564775545fc1c1c4d249dfce03b4ea11c29ce60844bd9&',
+            './assets/Aiden_Chen.jpg',  // 图片1的URL
+            './assets/Alyssa_Jiang.jpg',  // 图片2的URL
+            './assets/Dang_Nguyen.png',
+            './assets/Hussein_Elzamel.png',
+            './assets/Juno_Jiang.PNG',
         ];
         var num = 0;
 
@@ -61,11 +61,11 @@
 
 
         var images1 = [
-            'https://cdn.discordapp.com/attachments/1125603609447501884/1184231265667403836/Rainey_Liu.jpg?ex=659dad4f&is=658b384f&hm=f2b808464f696187c6e1983a2323a3ab6da28a6e1dc4453a43d6c29dd98264dd&',  // 图片1的URL
-            'https://cdn.discordapp.com/attachments/1125603609447501884/1184231266720161853/Selina_Li_Edited.png?ex=659dad4f&is=658b384f&hm=916c8710e7eea96385e5958216cb34cd33490b1ad770445f60c7febae8ef5686&',  // 图片2的URL
-            'https://cdn.discordapp.com/attachments/1125603609447501884/1184231267881992244/Tessa_Coleman.jpeg?ex=659dad50&is=658b3850&hm=c8b58bf790fa4211b5b6c674a6d08690250144ed15bf888fce492c58f30738eb&',
-            'https://cdn.discordapp.com/attachments/1125603609447501884/1184231269199007775/Tony_Yin.png?ex=659dad50&is=658b3850&hm=491df71e7b174690b99dab3dd6480a3263b87162de144df880ef923b86927bde&',
-            'https://cdn.discordapp.com/attachments/1125603609447501884/1184231270717341696/Zainab_Arif.png?ex=659dad50&is=658b3850&hm=6570c10e60adebfab6a390bb9bc7f5371f8eae2ce83047b054f5918012d147b1&',
+            './assets/Rainey_Liu.jpg',  // 图片1的URL
+            './assets/Selina_Li_Edited.png',  // 图片2的URL
+            './assets/Tessa_Coleman.jpeg',
+            './assets/Tony_Yin.png',
+            './assets/Zainab_Arif.png',
         ];
         var num1 = 0;
 
@@ -86,6 +86,7 @@
         }
 
     </script>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
 </head>
 <body onload="startRotation(); startRotation1();">
     <!-- <div class="director">
@@ -95,7 +96,7 @@
         <button class='btn-hover color-1 btn-grad'><a style="text-decoration:none" href="OYG_pastimpacts.html">Past Impacts</a></button>
     </div> -->
     <div class="topnav">
-        <img src="https://cdn.discordapp.com/attachments/1125603609447501884/1179785951845814372/OYG_Logo_1.png?ex=657b0c4a&is=6568974a&hm=9400303f0e1c55a34df0086af356169f6bc329da2def6f53eee3d568cb592905&">
+        <img src="assets\OYG_Logo_1.png">
 
         <a class='active' style="text-decoration:none" href="index.html">Home</a>
         <a style="text-decoration:none" href="OYG_pastevent.html">Events</a>
@@ -105,44 +106,62 @@
     </div>
 
 
-
-
-    <img src="https://cdn.discordapp.com/attachments/1125603609447501884/1179785951845814372/OYG_Logo_1.png?ex=657b0c4a&is=6568974a&hm=9400303f0e1c55a34df0086af356169f6bc329da2def6f53eee3d568cb592905&">
+    <img class="big_image" src="assets\OYG_Logo_1.png">
     <p class="discription">Founded in 2021 by Andy Lin, Oakville Youth Group is a student-led group  created with the aim of helping nonprofit organizations and making a positive impact in humanitarian issues. This year we partnered with the Children's Aid Foundation of Halton to host a multitude of fundraisers such as book fairs and piano recitals. In the end we successfully raised over $4500 that will go towards helping children in need.</p>
     <div class="bulletin">
-        <div class="fundraiser">
-            
-            <h3>We’re celebrating Oakville and helping our community by selling cards. The money we get goes to the Children’s Aid Foundation of Halton (CAFH). Last year, we gave them over $3200. This year, we’ve already got $1500 from a debate event. We want to give even more this year. CAFH uses this money to help young people in our community who need it. Join us and help make a difference!</h3>
+        <div id='fundraiser'class="fundraiser">
+            <div>
+                <p class="header">Holiday Card Sale</p>
+                <p class="funding_text txts">    We’re celebrating Oakville and helping our community by selling cards. The money we get goes to the Children’s Aid Foundation of Halton (CAFH). Last year, we gave them over $3200. This year, we’ve already got $1500 from a debate event. We want to give even more this year. CAFH uses this money to help young people in our community who need it. Join us and help make a difference!</p>    
+            </div>
             <!-- <img id='rotatingImage' src="https://cdn.discordapp.com/attachments/1125603609447501884/1182183923187449957/Aiden_Chen.jpg?ex=6583c593&is=65715093&hm=6fe24bec8f2df13e6bd22620fc97b3131d73a6b67ffd7e8db0486b4a3919833f&" style="opacity:1;"> -->
-            <div class="image-1">
-                <img id='rotatingImage' src="https://cdn.discordapp.com/attachments/1125603609447501884/1182764495907590194/Aiden_Chen.jpg?ex=6585e246&is=65736d46&hm=7d54070b1f72b8ff1fa63e026dac5a2c56ab4ade6e85ec505868bf71e39ad81a&" style="opacity:1;">
+            <div class='imagepile'>
+                <div class="image-1">
+                    <img id='rotatingImage' src="assets\Aiden_Chen.jpg" style="opacity:1;">
+                </div>
+                <div class="image-2">
+                    <img id='rotatingImage1' src="assets\Rainey_Liu.jpg" style="opacity:1;">
+                </div>
             </div>
-            <div class="image-2">
-                <img id='rotatingImage1' src="https://cdn.discordapp.com/attachments/1125603609447501884/1184231265667403836/Rainey_Liu.jpg?ex=659dad4f&is=658b384f&hm=f2b808464f696187c6e1983a2323a3ab6da28a6e1dc4453a43d6c29dd98264dd&" style="opacity:1;">
-            </div>
+
 
         </div>
         <div class="news">
-            <p>Discover the transformative journey of Oakville’s children in our new film, featuring the Mayor. Witness how hope can change lives. Click to watch <a style="text-decoration:none" href="https://yourtv.tv/burlington-oakville">‘A Ray of Hope’</a> now!</p>
             <div class="image-3">
-                <img src="https://cdn.discordapp.com/attachments/1151571998544232462/1191291505437057064/IMG_5537.jpg?ex=65a4e7ac&is=659272ac&hm=bf43e91eaae3e1079165900a93bd488a2b12a03819e8a0639a9f9447ccf810af&">
+                <img src="assets\IMG_5537.jpg">
             </div>
+            <div>
+                <p class="header">The Journey of US</p>
+                <p class="txts">Discover the transformative journey of Oakville’s children in our new film, featuring the Mayor. Witness how hope can change lives. Click to watch <a style="text-decoration:none" href="https://yourtv.tv/burlington-oakville">‘A Ray of Hope’</a> now!</p>
+
+            </div>
+ 
 
         </div>
-        <div class="curent_event">
-            <p>On Dec 9th, 2023, our member had set up a fundraising event by Holiday Card Sale! This event happend in Knox Church, see below:</p>
-            <div class="image-3">
-                <img src="https://cdn.discordapp.com/attachments/1151571998544232462/1192147783239606322/IMG_4408.jpg?ex=65c3b4a4&is=65b13fa4&hm=c6889d735dafb34e36a6e790386669fc677a28c64f0e53a1b615604e23b57e5a&">
+        <div class="current_event">
+            <div>
+                <p class="header">WHAT JUST HAPPENED?!</p>
+                <p class="txts">On Dec 9th, 2023, our member had set up a fundraising event by Holiday Card Sale! This event happend in Knox Church:</p>
+    
+            </div>
+            <div class="image-4">
+                <img src="assets\IMG_4408.jpg">
             </div>
         </div>
+
         <div class="purchase">
-            <div class="image-4">
-                <img src="https://cdn.discordapp.com/attachments/1125603609447501884/1192011287648030730/OYG_HolidayCardFundraiserInfographic_1.png?ex=65a78605&is=65951105&hm=c45916e5c4f13080268eebeffcd13a10c6d73abea7a61662f911ecfc6753f265&">
+            <div>
+                <p class="header">Please consider:</p>
+                <p class="txts">Want to support our mission? Luckly we have some cards left for you! Scan the QR code on the left and order a deck of holiday cards!</p>
+    
+            </div>
+            <div class="image-5">
+                <img src="assets\OYG_HolidayCardFundraiserInfographic_1.png">
             </div>
         </div>
         <div class="goal">
-            <h1>Money Raised</h1>
-            <h2>7,000 CAD</h2>
+            <p class="bottom">Our Current Progress:</p>
+            <p class="bottom">7,000 CAD</p>
         </div>
     </div>
 </body>

@@ -1,8 +1,9 @@
 body {
-    background-image: url(https://cdn.discordapp.com/attachments/1151571998544232462/1163288888794697809/IMG_1390-modified.JPG?ex=653f0833&is=652c9333&hm=435ef4fabf48fdc01c744bd4baf47a5463859cc54a92564b433ef8c67f040374&);
     background-size: cover;
+    margin:auto 5% auto 5%;
     font-family: 'Inter', sans-serif;
     font-family: 'Open Sans', sans-serif;
+    background-image: url(assets/blurry_background.jpg);
 }
 .header{
     text-align: center;
@@ -87,14 +88,50 @@ img{
     padding-bottom: 5px;
     font-weight:600;
 }
+.topnav{
+    width: auto;
+    overflow: hidden;
+
+}
+.topnav img{
+    width:auto;
+    float: left;
+    height: 100px;
+    margin-right: 100px;
+
+}
+
+.topnav a{
+    float: left;
+    color: #212121;
+    text-align: center;
+    padding: 30px 2vw;
+    text-decoration: none;
+    font-size: 30px;
+    cursor: pointer;
+    transition: all .4s ease-in-out;
+}
+
+.topnav a:hover {
+    background-color: #e3723e;
+    color: white;
+}
+
+.topnav a.active {
+    background-color: #cfb53b;
+    color: #212121;
+  }
+
+
+.topnav a:focus{
+    outline: none;
+}
 
 @media (max-width: 1030px){
     .bookfair, .debate, .pianoconcert{
         display:initial;
         align-content: center;
         border-bottom: 4px solid #F9a66c;
-        
-
     }
 
 }
