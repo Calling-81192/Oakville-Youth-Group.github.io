@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+    
     <!-- <script src="mainpage.js"></script> -->
     <!-- below is for changing the image on our fundraising page -->
 
@@ -97,12 +98,56 @@
     </div> -->
     <div class="topnav">
         <img src="assets\OYG_Logo_1.png">
-
-        <a class='active' style="text-decoration:none" href="index.html">Home</a>
-        <a style="text-decoration:none" href="OYG_pastevent.html">Events</a>
-        <a style="text-decoration:none" href="OYG_members.html">Members</a>
-        <a style="text-decoration:none" href="OYG_causes.html">Causes</a>
-        <a style="text-decoration:none" href="OYG_pastimpacts.html">Past Impacts</a>
+        <div class="btn_wrapper">
+            <svg width="240" height="3vw">
+                <rect 
+                    class="rectangle_act"
+                    width="240"
+                    height="3vw"
+                />
+            </svg>
+            <a class='active btn' style="text-decoration:none" href="index.html">Home</a>
+        </div>
+        <div class="btn_wrapper">
+            <svg width="240" height="3vw">
+                <rect 
+                    class="rectangle"
+                    width="240"
+                    height="3vw"
+                />
+            </svg>
+            <a class='active btn' style="text-decoration:none" href="OYG_pastevent.html">Events</a>
+        </div>
+        <div class="btn_wrapper">
+            <svg width="240" height="3vw">
+                <rect 
+                    class="rectangle"
+                    width="240"
+                    height="3vw"
+                />
+            </svg>
+            <a class='active btn' style="text-decoration:none" href="OYG_members.html">Members</a>
+        </div>
+        <div class="btn_wrapper">
+            <svg width="240" height="3vw">
+                <rect 
+                    class="rectangle"
+                    width="240"
+                    height="3vw"
+                />
+            </svg>
+            <a class='active btn' style="text-decoration:none" href="OYG_causes.html">Causes</a>
+        </div>
+        <div class="btn_wrapper">
+            <svg width="240" height="3vw">
+                <rect 
+                    class="rectangle"
+                    width="240"
+                    height="3vw"
+                />
+            </svg>
+            <a class='active btn' style="text-decoration:none" href="OYG_pastimpacts.html">Past Impacts</a>
+        </div>
     </div>
 
 
@@ -126,7 +171,7 @@
 
 
         </div>
-        <div class="news">
+        <div id="news" class="news">
             <div class="image-3">
                 <img src="assets\IMG_5537.jpg">
             </div>
@@ -138,7 +183,7 @@
  
 
         </div>
-        <div class="current_event">
+        <div id='current_event' class="current_event">
             <div>
                 <p class="header">WHAT JUST HAPPENED?!</p>
                 <p class="txts">On Dec 9th, 2023, our member had set up a fundraising event by Holiday Card Sale! This event happend in Knox Church:</p>
@@ -149,7 +194,7 @@
             </div>
         </div>
 
-        <div class="purchase">
+        <div id='purchase' class="purchase">
             <div>
                 <p class="header">Please consider:</p>
                 <p class="txts">Want to support our mission? Luckly we have some cards left for you! Scan the QR code on the left and order a deck of holiday cards!</p>
@@ -159,10 +204,24 @@
                 <img src="assets\OYG_HolidayCardFundraiserInfographic_1.png">
             </div>
         </div>
-        <div class="goal">
-            <p class="bottom">Our Current Progress:</p>
-            <p class="bottom">7,000 CAD</p>
+        <div id= 'goal'class="goal">
+            <p id='bottom_1' class="bottom">Our Current Progress:</p>
+            <p id='bottom_2' class="bottom">7,845.07 CAD</p>
         </div>
+    </div>
+    <div>
+        
+    </div>
+
+
+    <script src="maincontainer1.js"></script>
+    <div class="contact">
+        <div class="logo">
+            <hr class="underlogo">
+            <a href="https://www.instagram.com/oakvilleyouthgroup/"><img class='image-6' src="assets\instagram.png" alt="Our Instagram Page"></a>
+            <hr class="underlogo">
+        </div>
+
     </div>
 </body>
 </html>
