@@ -1,8 +1,10 @@
 body{
-    background-color: #f9faf4;
-    margin:auto 5% auto 5%;
-    font-family: 'Inter', sans-serif;
-    font-family: 'Open Sans', sans-serif;
+    background-color: #fef4ea;
+    font-family: 'Source Sans Pro', sans-serif;
+    box-sizing: border-box;
+    
+
+    text-align: center;
 }
 header{
     color: #4a6163;
@@ -50,6 +52,8 @@ header{
 .topnav{
     width: auto;
     overflow: hidden;
+    display: flex;
+    align-items: flex-end;
 
 }
 .topnav img{
@@ -58,29 +62,46 @@ header{
     margin-right: 100px;
 
 }
+.btn_wrapper{
+    width: 240px;
+    height: 3vw;
+}
+.rectangle{
+    stroke-width: 8px;
+    stroke: #FF7F3E;
+    fill: transparent;
+    stroke-dasharray: 150 500;
+    stroke-dashoffset: -334;
+}
+.rectangle_act{
+    stroke-width: 8px;
+    stroke:  #cfb53b;
+    fill: transparent;
+    stroke-dasharray: 150 500;
+    stroke-dashoffset: -334;
+}
 
-.topnav a{
-    float: left;
-    color: #212121;
-    text-align: center;
-    padding: 30px 2vw;
-    text-decoration: none;
+
+.btn{
+    position: relative;
+    align-self: center;
+    color: black;
     font-size: 30px;
-    cursor: pointer;
-    transition: all .4s ease-in-out;
+    top: -45px;
 }
 
-.topnav a:hover {
-    background-color: #e3723e;
-    color: white;
+@keyframes extend{
+    to {
+        stroke-dasharray: 700;
+        stroke-dashoffset: 50;
+        stroke-width: 6;
+
+    }
 }
 
-.topnav a.active {
-    background-color: #cfb53b;
-    color: #212121;
-  }
-
-
-.topnav a:focus{
-    outline: none;
+.btn_wrapper:hover .rectangle{
+    animation: 0.5s extend linear forwards;
+}
+.btn_wrapper:hover .rectangle_act{
+    animation: 0.5s extend linear forwards;
 }
