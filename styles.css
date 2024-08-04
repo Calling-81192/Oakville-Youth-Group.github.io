@@ -1,7 +1,16 @@
+@font-face{
+    font-family:"helvetica";
+    src:url("https://candyfonts.com/wp-data/2018/10/26/11538/HELR45W.ttf") format("woff"),
+    url("https://candyfonts.com/wp-data/2018/10/26/11538/HELR45W.ttf") format("opentype"),
+    url("https://candyfonts.com/wp-data/2018/10/26/11538/HELR45W.ttf") format("truetype");
+}
+
+
 
 body{
-    background-color: #fef4ea;
-    font-family: 'Source Sans Pro', sans-serif;
+    background: linear-gradient(90deg, #3a47d5 0%, #00d2ff 100%);
+
+    font-family: 'helvetica', "Arial", sans-serif;
     box-sizing: border-box;
     
 
@@ -21,6 +30,54 @@ body{
     margin-right: 100px;
 
 }
+
+.starting{
+    height: 60vh;
+    display: flex;
+}
+
+#header{
+    margin-top: 12%;
+    font-size: 72px;
+    font-weight: 600;
+    word-spacing: -5px;
+    text-align: left;
+    margin-left: 2%;
+    margin-bottom: 0;
+    color: white;
+}
+
+#change{
+    
+    
+          /** TEXT GRADIENT */ color: #fb8500; background-image: -webkit-linear-gradient(45deg, #fb8500 28%, #f72585 100%); background-clip: text; -webkit-background-clip: text; text-fill-color: transparent; -webkit-text-fill-color: transparent;
+          
+        
+          
+        
+}
+
+#discription{
+    text-indent: 5%;
+    font-size: 25px;
+    font-weight: 500;
+    margin-left: 10%;
+    max-width: 880px;
+    text-align: left;
+    margin-bottom: 10px;
+    border-bottom: 3px solid white;
+    padding-bottom: 20px;
+    color: white;
+    line-height: 1.2;
+}
+#img_first {
+    float: right;
+    margin-right: 0;
+}
+#texts{
+    width:70%;
+}
+
 
 /* .topnav a{
     float: left;
@@ -65,17 +122,7 @@ body{
     margin-bottom: 10px;
     border-bottom: 3px solid #F9a66c;
 }
-.discription{
-    padding-top: 10px;
-    font-size: 170%;
-    margin: 5px 10vw 0 10vw;
-    margin-top: 5px;
-    min-width: 300px;
-    margin-bottom: 10px;
-    border-bottom: 3px solid #F9a66c;
-    padding-bottom: 20px;
-    color: #192733;
-}
+
 
 .director p{
     font-weight: 900;
@@ -407,7 +454,7 @@ hr{
 .btn{
     position: relative;
     align-self: center;
-    color: black;
+    color: white;
     font-size: 30px;
     top: -45px;
 }
