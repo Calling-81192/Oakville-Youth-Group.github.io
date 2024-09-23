@@ -1,6 +1,24 @@
+@font-face{
+    font-family:"helvetica";
+    src:url("https://candyfonts.com/wp-data/2018/10/26/11538/HELR45W.ttf") format("woff"),
+    url("https://candyfonts.com/wp-data/2018/10/26/11538/HELR45W.ttf") format("opentype"),
+    url("https://candyfonts.com/wp-data/2018/10/26/11538/HELR45W.ttf") format("truetype");
+}
+
+
+
 body{
-    background-color: #fef4ea;
-    font-family: 'Source Sans Pro', sans-serif;
+
+    font-family: 'helvetica', "Arial", sans-serif;
+    background: hsla(197, 100%, 63%, 1);
+
+    background: linear-gradient(0deg, hsla(197, 100%, 63%, 1) 0%, hsla(197, 100%, 63%, 1) 0%, hsla(294, 100%, 55%, 1) 100%);
+    
+    background: -moz-linear-gradient(0deg, hsla(197, 100%, 63%, 1) 0%, hsla(197, 100%, 63%, 1) 0%, hsla(294, 100%, 55%, 1) 100%);
+    
+    background: -webkit-linear-gradient(0deg, hsla(197, 100%, 63%, 1) 0%, hsla(197, 100%, 63%, 1) 0%, hsla(294, 100%, 55%, 1) 100%);
+    
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#40C9FF", endColorstr="#40C9FF", GradientType=1 );
     box-sizing: border-box;
     
 
@@ -8,12 +26,13 @@ body{
 }
 
 header{
-    color: #4a6163;
     text-align: center;
-    font-size: 40px;
-    border-bottom:4px solid #f9a66c;
-    /* background-color: #4a6163; */
-    margin:20px auto 20px auto;
+    padding: 20px;
+    /* border-bottom: 4px solid white; */
+}
+.header h1{
+    font-size: 350%;
+    color:white;
 }
 
 .all img{
@@ -33,7 +52,7 @@ email{
     justify-content: space-around;
 }
 .content img{
-    margin-left: 25px;
+    
     border-radius: 20px;
     /* border-bottom: 4px solid #F9a66c; */
 }
@@ -51,13 +70,17 @@ email{
 
 
 .element{
-    width: 400px;
-    background-color: #fef4ea;
+    /* width: 400px; */
+    /* background-color: #fef4ea; */
     font-size: 15px;
+    flex: 1 0 26%;
 }
 .element p{
     text-align: center;
     word-wrap: break-word;
+    color: white;
+    width: 85%;
+    margin: auto;
 }
 .return{
     margin:10px -5% auto -5%;
@@ -73,9 +96,8 @@ email{
 }
 
 .Name{
-    padding-top: 10px;
-    border-top: 4px solid #F9a66c;
-    font-size: 1.5em;
+    /* border-top: 4px solid #F9a66c; */
+    font-size: 2rem;
     font-weight: 800;
 }
 .role{
@@ -113,7 +135,7 @@ email{
 }
 .rectangle_act{
     stroke-width: 8px;
-    stroke:  #cfb53b;
+    stroke:  white;
     fill: transparent;
     stroke-dasharray: 150 500;
     stroke-dashoffset: -334;
@@ -123,7 +145,7 @@ email{
 .btn{
     position: relative;
     align-self: center;
-    color: black;
+    color: white;
     font-size: 30px;
     top: -45px;
 }

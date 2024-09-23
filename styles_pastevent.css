@@ -1,33 +1,44 @@
+@font-face{
+    font-family:"helvetica";
+    src:url("https://candyfonts.com/wp-data/2018/10/26/11538/HELR45W.ttf") format("woff"),
+    url("https://candyfonts.com/wp-data/2018/10/26/11538/HELR45W.ttf") format("opentype"),
+    url("https://candyfonts.com/wp-data/2018/10/26/11538/HELR45W.ttf") format("truetype");
+}
 
 
 body{
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'helvetica', "Arial", sans-serif;
     box-sizing: border-box;
     
-    background-image: url(assets/blurry_background.jpg);
+    /* background-image: url(assets/blurry_background.jpg); */
 
+    background: rgb(6,190,182);
+    background: -moz-linear-gradient(148deg, rgba(6,190,182,1) 38%, rgba(72,177,191,1) 60%);
+    background: -webkit-linear-gradient(148deg, rgba(6,190,182,1) 38%, rgba(72,177,191,1) 60%);
+    background: linear-gradient(148deg, rgba(6,190,182,1) 38%, rgba(72,177,191,1) 60%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#06beb6",endColorstr="#48b1bf",GradientType=1);
     text-align: center;
 }
 .header{
     text-align: center;
-    text-transform: uppercase;
-    padding: 32px;
+    padding: 20px;
     margin-bottom: 20px;
-    color: #0a0a23;
-    border-bottom: 4px solid #F9a66c;
+    border-bottom: 4px solid white;
 }
 
 .header h1{
-    font-size: 40px;
+    font-size: 350%;
+    color:white;
 }
 
 .content{
-    background-color: rgba(240, 248, 255, 0.5);
+    background-color: rgba(240, 248, 255, 0.348);
     width: 85%;
     margin-left: auto;
     margin-right: auto;
     padding: 30px;
     margin-top: 30px;
+    border-radius: 100px;
 }
 .all img{
     object-fit: cover;
@@ -45,16 +56,30 @@ body{
 
 
 .text{
-    font-size: 20px;
+    /* background-color: rgba(66, 66, 66, 0.508); */
+    border-radius: 15px;
+    padding-left: 20px;
+    padding-right:20px;
+    font-size: 140%;
+    color: #023047;
+    font-weight: 400;
+    text-align: left;
+    text-indent: 5%;
+    /* font-size: 20px; */
     /* width: 50vw; */
+    display: flex;
+    align-items: center;
 }
 
+/* .txt{
+    margin: auto;
+} */
 
 
 .bookfair{
     display: flex;  
     gap: 20px;
-    border-bottom: 2px solid #4a6163;
+    border-bottom: 4px solid white;
     /* flex-wrap: wrap; */
     /* align-items: center; */
     /* justify-content: center; */
@@ -65,7 +90,7 @@ body{
     display: flex;
     /* justify-content: flex-end;   */
     gap: 20px;
-    border-bottom: 2px solid #4a6163;
+    border-bottom: 4px solid white;
     /* flex-wrap: wrap; */
     /* align-items: center; */
     /* justify-content: center; */
@@ -127,7 +152,7 @@ body{
 }
 .rectangle_act{
     stroke-width: 8px;
-    stroke:  #cfb53b;
+    stroke:  white;
     fill: transparent;
     stroke-dasharray: 150 500;
     stroke-dashoffset: -334;
@@ -137,7 +162,7 @@ body{
 .btn{
     position: relative;
     align-self: center;
-    color: black;
+    color: white;
     font-size: 30px;
     top: -45px;
 }
@@ -156,4 +181,29 @@ body{
 }
 .btn_wrapper:hover .rectangle_act{
     animation: 0.5s extend linear forwards;
+}
+
+.contact{
+    width: 100%;;
+    /* background-color: #e9a17b; */
+    margin: 0;
+    margin-top: 30px;
+    padding: 0;
+    box-sizing: border-box;
+    padding: 40px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+.image-6{
+    width: 60px;
+}
+hr{
+    height: 5px;
+    width: 30%;
+    color: #fef4ea;
+    background-color: #fef4ea;
+    border: #fef4ea;
 }

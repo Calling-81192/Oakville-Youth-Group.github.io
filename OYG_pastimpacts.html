@@ -4,16 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>OakvilleYouthGroup_PastImpacts</title>
-    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles_pastimpacts.css">
+
+    <link rel="stylesheet" href="odometer-theme-default.css">
+    <script src="odometer.js"></script>
+
+
 </head>
 <body>
     <div class="topnav">
-        <img src="assets\OYG_Logo_1.png">
+        <img src="assets\monotone_logo_outline.png">
         <div class="btn_wrapper">
             <svg width="240" height="3vw">
                 <rect 
-                    class="rectangle_act"
+                    class="rectangle"
                     width="240"
                     height="3vw"
                 />
@@ -53,7 +57,7 @@
         <div class="btn_wrapper">
             <svg width="240" height="3vw">
                 <rect 
-                    class="rectangle"
+                    class="rectangle_act"
                     width="240"
                     height="3vw"
                 />
@@ -62,17 +66,33 @@
         </div>
     </div>
     <!-- <p class="return"><a style="text-decoration:none" href="index.html">Return</a></p> -->
-    <header>Past Impacts</header>
     <div class="content all">
-        <div>
-            <img id="image1" src="assets\group-children-smiling-tile.jpg">
-            <p><b>28</b> Members, With <b>15</b> Talented Artists</p>
+        <div class="small_title">
+            <p>Our Progress:</p>
         </div>
-        <div>
-            <img id='image2' src="assets\IMG_1412.JPG">
-            <p>Raised <b>$3275</b> For The Year of 2022</p>
-            <p>And More This Year!</p>
+        <div class="money_counter">
+            <p>&#128181 Money Raised: $<span class="odometer" id="odometer">0</span></p>
+<script>
+    setTimeout(function(){
+    odometer.innerHTML = 7845;
+}, 100);
+</script>
         </div>
+        <div class="member_counter">
+            <p>&#127912 We have <span class="odometer" id="odometer2">0</span> members and <span class="odometer" id="odometer3">0</span> talented members!</p>
+            <script>
+                setTimeout(function(){
+                odometer2.innerHTML = 28;
+            }, 100);
+            </script>
+            <script>
+                setTimeout(function(){
+                odometer3.innerHTML = 15;
+            }, 100);
+            </script>
+
+        </div>
+
     </div>
 
 </body>
