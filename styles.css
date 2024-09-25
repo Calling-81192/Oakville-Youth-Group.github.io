@@ -382,17 +382,21 @@ body{
 }
 
 .topnav{
+    background-color: #16325B;
+    height: 12vh;
     width: auto;
-    overflow: hidden;
     display: flex;
-    align-items: flex-end;
+    border-bottom: 5px solid #FF7F3E;
 
 }
 .topnav img{
     float: left;
-    height: 100px;
-    margin-right: 100px;
-
+    height: 10vh;
+    margin-right: 6vw;
+}
+.guider{
+  display: flex;
+  align-items: center;
 }
 
 .starting{
@@ -414,10 +418,7 @@ body{
     font-size: 150%;
     font-family: 'kalseybold', "Arial", sans-serif;
           /** TEXT GRADIENT */ color: #fb8500; background-image: -webkit-linear-gradient(45deg, #fb8500 28%, #f72585 100%); background-clip: text; -webkit-background-clip: text; text-fill-color: transparent; -webkit-text-fill-color: transparent;
-          
-        
-          
-        
+
 }
 
 #discription{
@@ -442,37 +443,6 @@ body{
 }
 
 
-/* .topnav a{
-    float: left;
-    color: #212121;
-    text-align: center;
-    padding: 30px 2vw;
-    text-decoration: none;
-    font-size: 30px;
-    cursor: pointer;
-    transition: all .4s ease-in-out;
-}
-
-.topnav a:hover {
-    background-color: #e3723e;
-    color: white;
-}
-
-.topnav a.active {
-    background-color: #cfb53b;
-    color: #212121;
-  }
-
-
-.topnav a:focus{
-    outline: none;
-} */
-
-/* .topnav.a{
-    background-image: linear-gradient(to right, #F9A66C, #E88482, #BD7192, #856691, #505A7B,#2F4858);
-    box-shadow: 0 4px 15px 0 rgba(189,113,146,  0.75);
-} */
-
 
 .director{
     display: flex;
@@ -494,50 +464,13 @@ body{
     /* background-color: #F9a66c; */
     color: #4a6163;
 }
-/* a {
-    padding:10px 20px;
-    position: relative;
-    width: 350px;
-    text-align: center;
-    text-decoration: none;
-    color: #fff;
-    
 
-} */
 
 .buttons{
     text-align: center;
 } 
 
-.btn-hover{
-    color: #fff;
-    cursor: pointer;
-    padding-left: 20px;
-    padding-right: 20px;
-    margin-bottom: 20px;
-    height: 70px;
-    text-align:justify;
-    border: none;
-    background-size: 300% 100%;
-    font-size: 30px;
-    font-weight: 900;
-    border-radius: 20px;
-    transition: all .4s ease-in-out;
-}
 
-.btn-hover:hover{
-    background-position: 100% 0;
-    transition: all .4s ease-in-out;
-}
-
-.btn-hover:focus{
-    outline: none;
-}
-
-.btn-hover.color-1{
-    background-image: linear-gradient(to right, #F9A66C, #E88482, #BD7192, #856691, #505A7B,#2F4858);
-    box-shadow: 0 4px 15px 0 rgba(189,113,146,  0.75);
-}
 
 .image-1{
     border-top-left-radius: 20px;
@@ -578,18 +511,6 @@ body{
 .bulletin{
     padding-top: 50px;
     font-weight: 800;
-    /* background-color: 	rgba(240, 248, 255, 0.5); */
-    /* display: grid; */
-    /* grid-template-columns: 12vw, 12vw,12vw,12vw,12vw;
-    grid-template-rows: 30vh, 30vh, 30vh; */
-    /* grid-template-areas: 
-        'a a a a a'
-        'b b c d d'
-        'e e e d d'; */
-    /* width: 80vw; */
-    /* height: 110vh; */
-    /* margin-left: 5vw; */
-    /* margin-right: 5vw; */
     
     
 }
@@ -602,10 +523,6 @@ body{
     height: 90%;
     margin-left: auto;
     margin-right: auto;
-    /* grid-column: 1/6; */
-    /* display: flex;
-    grid-area: a;
-    align-items: center; */
     margin-top: 10px;
     display: flex;
     align-items: center;
@@ -624,7 +541,6 @@ body{
     padding-right: 20px;
     width: 40rem;
     text-align: left;
-    /* padding-top: 10px; */
     
 }
 
@@ -632,8 +548,6 @@ body{
 
 
 .news{
-    /* grid-column: 1/3;
-    grid-row: 2/3; */
     opacity: 0;
     transition: opacity 2s;
     background-color: #FF7F3E;
@@ -648,12 +562,6 @@ body{
     padding:20px;
 }
 .current_event{
-    /* padding-top: 30px; */
-    /* grid-column: 3/4;
-    grid-row: 2/3; */
-    /* grid-area: c; */
-    /* display:flex;
-    align-items: center; */
     opacity: 0;
     transition: opacity 2s;
     background-color: #FF7F3E;
@@ -795,32 +703,43 @@ hr{
 }
 
 .btn_wrapper{
-    width: 240px;
-    height: 3vw;
+    width: 15vw;
+    height: 3vh;
 }
+
+
+
+
+
+
+
+
 .rectangle{
     stroke-width: 8px;
     stroke: #FF7F3E;
     fill: transparent;
-    stroke-dasharray: 150 500;
-    stroke-dashoffset: -334;
+    stroke-dasharray: 11vw 43vw;
+    stroke-dashoffset: -21vw;
 }
 .rectangle_act{
     stroke-width: 8px;
     stroke:  white;
     fill: transparent;
-    stroke-dasharray: 150 500;
-    stroke-dashoffset: -334;
+    stroke-dasharray: 11vw 43vw;
+    stroke-dashoffset: -21vw;
 }
 
 
 .btn{
-    position: relative;
-    align-self: center;
+    font-weight: 600;
+    font-size: 2vw;
     color: white;
-    font-size: 30px;
-    top: -45px;
+    transition: color 1s;
 }
+.btn:hover{
+  color: #FF7F3E;
+}
+
 
 @keyframes extend{
     to {
@@ -831,12 +750,6 @@ hr{
     }
 }
 
-.btn_wrapper:hover .rectangle{
-    animation: 0.5s extend linear forwards;
-}
-.btn_wrapper:hover .rectangle_act{
-    animation: 0.5s extend linear forwards;
-}
 
 
 .scroll-down {

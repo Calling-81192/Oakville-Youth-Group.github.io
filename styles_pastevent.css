@@ -375,6 +375,23 @@ body{
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#06beb6",endColorstr="#48b1bf",GradientType=1);
     text-align: center;
 }
+.topnav{
+  background-color: #16325B;
+  height: 12vh;
+  width: auto;
+  display: flex;
+  border-bottom: 5px solid #FF7F3E;
+
+}
+.topnav img{
+  float: left;
+  height: 10vh;
+  margin-right: 6vw;
+}
+.guider{
+  display: flex;
+  align-items: center;
+}
 .header{
     text-align: center;
     padding: 20px;
@@ -472,19 +489,7 @@ body{
     padding-bottom: 5px;
     font-weight:600;
 } */
-.topnav{
-    width: auto;
-    overflow: hidden;
-    display: flex;
-    align-items: flex-end;
 
-}
-.topnav img{
-    float: left;
-    height: 100px;
-    margin-right: 100px;
-
-}
 
 @media (max-width: 1030px){
     .bookfair, .debate, .pianoconcert{
@@ -495,10 +500,6 @@ body{
 
 }
 
-.btn_wrapper{
-    width: 240px;
-    height: 3vw;
-}
 .rectangle{
     stroke-width: 8px;
     stroke: #FF7F3E;
@@ -516,11 +517,17 @@ body{
 
 
 .btn{
-    position: relative;
-    align-self: center;
-    color: white;
-    font-size: 30px;
-    top: -45px;
+  font-weight: 600;
+  font-size: 2vw;
+  color: white;
+  transition: color 1s;
+}
+.btn:hover{
+  color: #FF7F3E;
+}
+.btn_wrapper{
+  width: 15vw;
+  height: 3vh;
 }
 
 @keyframes extend{
@@ -532,12 +539,6 @@ body{
     }
 }
 
-.btn_wrapper:hover .rectangle{
-    animation: 0.5s extend linear forwards;
-}
-.btn_wrapper:hover .rectangle_act{
-    animation: 0.5s extend linear forwards;
-}
 
 .contact{
     width: 100%;;

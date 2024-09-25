@@ -408,21 +408,26 @@ p{
 }
 
 .topnav{
-    width: auto;
-    overflow: hidden;
-    display: flex;
-    align-items: flex-end;
+  background-color: #16325B;
+  height: 12vh;
+  width: auto;
+  display: flex;
+  border-bottom: 5px solid #FF7F3E;
 
 }
 .topnav img{
-    float: left;
-    height: 100px;
-    margin-right: 100px;
-
+  float: left;
+  height: 10vh;
+  margin-right: 6vw;
 }
+.guider{
+  display: flex;
+  align-items: center;
+}
+
 .btn_wrapper{
-    width: 240px;
-    height: 3vw;
+  width: 15vw;
+  height: 3vh;
 }
 .rectangle{
     stroke-width: 8px;
@@ -441,11 +446,13 @@ p{
 
 
 .btn{
-    position: relative;
-    align-self: center;
-    color: white;
-    font-size: 30px;
-    top: -45px;
+  font-weight: 600;
+  font-size: 2vw;
+  color: white;
+  transition: color 1s;
+}
+.btn:hover{
+color: #FF7F3E;
 }
 
 @keyframes extend{
