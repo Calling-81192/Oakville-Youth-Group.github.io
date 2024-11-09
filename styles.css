@@ -372,7 +372,7 @@
 
 
 body{
-    background: linear-gradient(90deg, #3a47d5 0%, #00d2ff 100%);
+    
 
     font-family: 'helvetica', "Arial", sans-serif;
     box-sizing: border-box;
@@ -410,14 +410,17 @@ body{
     word-spacing: -5px;
     text-align: left;
     margin-left: 2%;
-    color: white;
+    background: linear-gradient(to right, #121FCF, #08C2FF); 
+            -webkit-text-fill-color: transparent; 
+            -webkit-background-clip: text; 
     margin-bottom: 0;
 }
 
 #change{
     font-size: 150%;
     font-family: 'kalseybold', "Arial", sans-serif;
-          /** TEXT GRADIENT */ color: #fb8500; background-image: -webkit-linear-gradient(45deg, #fb8500 28%, #f72585 100%); background-clip: text; -webkit-background-clip: text; text-fill-color: transparent; -webkit-text-fill-color: transparent;
+    /** TEXT GRADIENT */ color: #fb8500; 
+    background-image: -webkit-linear-gradient(45deg, #fb8500 28%, #f72585 100%); background-clip: text; -webkit-background-clip: text; text-fill-color: transparent; -webkit-text-fill-color: transparent;
 
 }
 
@@ -429,11 +432,18 @@ body{
     max-width: 880px;
     text-align: left;
     margin-bottom: 10px;
-    border-bottom: 3px solid white;
     padding-bottom: 20px;
-    color: white;
+    color: #192733;
     line-height: 1.2;
 }
+#separater1{
+  width: 40%;
+  margin-left: 10%;
+  padding-left: 0;
+  background-color: #024CAA;
+}
+
+
 #img_first {
     float: right;
     margin-right: 0;
@@ -482,7 +492,7 @@ body{
     align-items: center;
     overflow: hidden;
     float: right;
-    border: 3px solid #8a959e;
+    border: 3px solid #192733;
     border-bottom: none;
 }
 .image-2{
@@ -495,7 +505,7 @@ body{
     align-items: center;
     overflow: hidden;
     float: right;
-    border: 3px solid #8a959e;
+    border: 3px solid #192733;
 
 }
 
@@ -517,7 +527,6 @@ body{
 .fundraiser{
     opacity: 0;
     transition: opacity 2s;
-    background-color: #FF7F3E;
     border-radius: 25px;
     width: 90%;
     height: 90%;
@@ -527,6 +536,26 @@ body{
     display: flex;
     align-items: center;
     padding:20px;
+}
+#holiday{
+  background: linear-gradient(to right, #C7253E, #FFAF45); 
+  -webkit-text-fill-color: transparent; 
+  -webkit-background-clip: text; 
+}
+#video_tape{
+  background: linear-gradient(to right, #640D6B, #B51B75); 
+  -webkit-text-fill-color: transparent; 
+  -webkit-background-clip: text; 
+}
+#current{
+  background: linear-gradient(to right, #143F6B 0%, #CD104D 74%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#donate{
+  background: linear-gradient(to right, #1230AE 0%, #7A1CAC 61%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .imagepile{
@@ -550,7 +579,6 @@ body{
 .news{
     opacity: 0;
     transition: opacity 2s;
-    background-color: #FF7F3E;
     border-radius: 25px;
     width: 90%;
     height: 50%;
@@ -564,7 +592,6 @@ body{
 .current_event{
     opacity: 0;
     transition: opacity 2s;
-    background-color: #FF7F3E;
     border-radius: 25px;
     width: 90%;
     height: 90%;
@@ -579,7 +606,6 @@ body{
 .purchase{
     opacity: 0;
     transition: opacity 2s;
-    background-color: #FF7F3E;
     border-radius: 25px;
     width: 90%;
     height: 90%;
@@ -595,7 +621,6 @@ body{
     grid-row: 3/4; */
     opacity: 0;
     transition: opacity 2s;
-    background-color: #192733;
     border-radius: 25px;
     width: 90%;
     height: 90%;
@@ -627,6 +652,7 @@ body{
     justify-content: center;
     object-fit: cover;
     object-position: center;
+    border-radius: 25px;
 }
 .image-4{
     width: 50%;
@@ -656,7 +682,7 @@ body{
 .header{
     text-align: left;
     font-size: 350%;
-    color:white;
+    color:#192733;
 }
 .txts{
     font-size: 140%;
@@ -664,7 +690,6 @@ body{
     font-weight: 400;
     text-align: left;
     text-indent: 5%;
-    color: white;
 }
 .bottom{
     font-size: 350%;
@@ -672,9 +697,11 @@ body{
 }
 #bottom_1{
     margin-bottom: -12px;
+    color: #192733;
 }
 #bottom_2{
     margin-top: -12px;
+    color: #192733;
 }
 
 .contact{
@@ -692,14 +719,15 @@ body{
     align-items: center;
 }
 .image-6{
-    width: 60px;
+    width: 40px;
+    margin: auto;
 }
 hr{
-    height: 5px;
+    height: 4px;
     width: 30%;
-    color: #fef4ea;
-    background-color: #fef4ea;
-    border: #fef4ea;
+    color: #192733;
+    background-color: #192733;
+    border: #192733;
 }
 
 .btn_wrapper{
